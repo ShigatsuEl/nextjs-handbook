@@ -1,3 +1,7 @@
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -4506,7 +4510,6 @@ video {
     --font-roboto-mono: "__Roboto_Mono_0db19d", "__Roboto_Mono_Fallback_0db19d";
 }
 
-// tailwind prevent style
 @media (prefers-color-scheme: dark) {
     .dark\:bg-black\/50 {
         background-color: inherit !important;
